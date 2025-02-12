@@ -25,7 +25,7 @@ body {
 
 
 .header {
-    background: linear-gradient(135deg, #f45d01, #f76b8a);
+    background: linear-gradient(135deg, #22edff, #6bf5f7);
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -60,7 +60,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 2.4em;
     margin-bottom: 25px;
-    color: #ff7043;
+    color: #22edff;
 }
 
 .about p {
@@ -108,7 +108,7 @@ body {
 
 
 .button {
-    background-color: #ff7043;
+    background-color: #22edff;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -123,7 +123,7 @@ body {
 }
 
 .button:hover {
-    background-color: #ff5722;
+    background-color: #22edff;
     transform: translateY(-3px);
 }
 
