@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #fafafa;
+    color: #444;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+
+.header {
+    background: linear-gradient(135deg, #f45d01, #f76b8a);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 2px solid #eee;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2em;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.header p {
+    font-size: 1.4em;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #fefefe;
+}
+
+
+.about {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: -60px;
+}
+
+.about h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4em;
+    margin-bottom: 25px;
+    color: #ff7043;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+
+.column {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px;
+}
+
+.column h3 {
+    font-size: 1.6em;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.column p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+
+.button {
+    background-color: #ff7043;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ff5722;
+    transform: translateY(-3px);
+}
+
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.8em;
+    }
+
+    .header p {
+        font-size: 1.3em;
+    }
+
+    .about h2 {
+        font-size: 2em;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .footer p {
+        font-size: 0.9em;
+    }
+}
